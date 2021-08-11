@@ -1,0 +1,10 @@
+applySpecVersion: 1
+spec:
+  configSync:
+    enabled: true
+    sourceFormat: unstructured
+    syncRepo: https://github.com/gauravkr19/acm_platform.git/
+    syncBranch: master
+    syncRev: HEAD
+    policyDir: "configsync/all-clusters"
+    secretType: none
